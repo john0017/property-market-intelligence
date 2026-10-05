@@ -23,8 +23,6 @@ Instead, the application creates a controlled evidence package from validated da
 
 ## Architecture
 
-## Architecture
-
 ```mermaid
 flowchart LR
     A[Public Data<br/>Eurostat / ECB] --> B[Python + Pandas]
