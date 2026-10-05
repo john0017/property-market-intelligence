@@ -1,7 +1,11 @@
-indicator,provider,dataset,frequency
-House Price Index,Eurostat,prc_hpi_q,Quarterly
-Rent Index,Eurostat,prc_hicp_midx,Monthly → Quarterly
-Inflation,Eurostat,prc_hicp_manr,Monthly → Quarterly
-Unemployment,Eurostat,une_rt_q,Quarterly
-GDP Growth,Eurostat,namq_10_gdp,Quarterly
-Policy Rate,ECB,Prototype - validate before demo,Quarterly
+type,market,indicator,provider,source
+Quantitative,Ireland / Spain,House Prices,Eurostat,prc_hpi_q
+Quantitative,Ireland / Spain,Rent,Eurostat,prc_hicp_midx
+Quantitative,Ireland / Spain,Inflation,Eurostat,prc_hicp_manr
+Quantitative,Ireland / Spain,Unemployment,Eurostat,une_rt_q
+Quantitative,Ireland / Spain,GDP Growth,Eurostat,namq_10_gdp
+Quantitative,Euro Area,Policy Rate,European Central Bank,ECB policy-rate series
+Contextual,Ireland,Housing Policy / Supply,Government of Ireland,"Delivering Homes, Building Communities 2025-2030"
+Contextual,Ireland,Housing Supply / Economic Context,Central Bank of Ireland,Quarterly Bulletin Q3 2026
+Contextual,Spain,Housing Market / Supply,Banco de España,Annual Report 2025
+Contextual,Spain,Rental Regulation,Boletín Oficial del Estado,Law 12/2023 on the Right to Housing
