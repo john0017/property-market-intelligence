@@ -23,32 +23,26 @@ Instead, the application creates a controlled evidence package from validated da
 
 ## Architecture
 
-Public Data Sources
-        |
-        v
-Python / Pandas
-        |
-        v
-Data Cleaning & Validation
-        |
-        v
-Deterministic Analytics
-        |
-        +--------------------+
-        |                    |
-        v                    v
-Structured Evidence    Curated Knowledge
-        |                    |
-        +----------+---------+
-                   |
-                   v
-              OpenAI API
-                   |
-                   v
-        AI Market Interpretation
-                   |
-                   v
-             Streamlit UI
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Public Data<br/>Eurostat / ECB] --> B[Python + Pandas]
+    B --> C[Validation & Cleaning]
+    C --> D[Deterministic Analytics]
+
+    D --> E[Structured Evidence]
+    F[Curated Knowledge<br/>Government / Central Banks] --> G[Retrieval Layer]
+
+    E --> H[Evidence Package]
+    G --> H
+
+    H --> I[OpenAI API]
+    I --> J[AI Interpretation]
+
+    D --> K[Streamlit Dashboard]
+    J --> K
+```
 
 
 Current Markets
