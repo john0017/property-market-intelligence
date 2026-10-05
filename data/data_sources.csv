@@ -1,0 +1,7 @@
+indicator,provider,dataset,frequency
+House Price Index,Eurostat,prc_hpi_q,Quarterly
+Rent Index,Eurostat,prc_hicp_midx,Monthly → Quarterly
+Inflation,Eurostat,prc_hicp_manr,Monthly → Quarterly
+Unemployment,Eurostat,une_rt_q,Quarterly
+GDP Growth,Eurostat,namq_10_gdp,Quarterly
+Policy Rate,ECB,Prototype - validate before demo,Quarterly

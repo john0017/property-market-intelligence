@@ -1,0 +1,28 @@
+TOPIC: Analytical methodology
+SOURCE: Internal prototype methodology
+
+CONTENT:
+
+The Property Market Intelligence prototype separates evidence into three categories.
+
+1. SOURCE FACTS
+
+Numerical observations obtained from external statistical sources such as Eurostat and the European Central Bank.
+
+2. CALCULATED INDICATORS
+
+Indicators calculated deterministically in Python.
+
+Price / Rent Divergence =
+House Price YoY Growth - Rent YoY Growth
+
+Real House Price Growth =
+House Price YoY Growth - Inflation
+
+3. AI INTERPRETATION
+
+The language model interprets supplied evidence but is not responsible for calculating the underlying indicators.
+
+The application is designed for market screening and research rather than property-level valuation or investment advice.
+
+Where the supplied evidence is insufficient to answer a question, the AI should explicitly identify the information gap rather than inventing information.
